@@ -5,8 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PersolEmployeeTracking.WPF"
         mc:Ignorable="d"
-        Title="LoginPage" Height="450" Width="800">
+        Title="LoginPage" Height="200" Width="350" WindowStartupLocation="CenterScreen" 
+        Background="CornflowerBlue" Icon="Images/Logo.png" FontSize="18" FontWeight="Bold" 
+        Loaded="Window_Loaded">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="156*"/>
+            <ColumnDefinition Width="19*"/>
+            <ColumnDefinition Width="175*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Label Content="UserNo" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="51,0,0,0"/>
+        <TextBox x:Name="txtUserNo" Grid.Column="2" Width="150" HorizontalAlignment="Left" VerticalAlignment="Center" PreviewTextInput="txtUserNo_PreviewTextInput"/>
+        <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Margin="43,0,0,0"/>
+        <TextBox x:Name="txtPassword" Grid.Row="1" Grid.Column="2" Width="150" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Button x:Name="btnLogin" Content="Login" Grid.Row="2" Margin="62,0,0,0" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnLogin_Click" Grid.ColumnSpan="2"/>
+        <Button x:Name="btnExit" Content="Exit" Grid.Row="2" Grid.Column="2" Margin="50,0,0,0" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnExit_Click"/>
     </Grid>
 </Window>
