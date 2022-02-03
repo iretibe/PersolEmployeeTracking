@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PersolEmployeeTracking.WPF" 
         xmlns:views="clr-namespace:PersolEmployeeTracking.WPF.Views"
+        xmlns:viewmodels="clr-namespace:PersolEmployeeTracking.WPF.ViewModels"
         mc:Ignorable="d"
         Title="MainWindow" Name="PersonalMainWindow" Height="540" Width="1200" 
         WindowStartupLocation="CenterScreen" FontSize="24" FontWeight="Bold" 
@@ -50,7 +51,7 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Image x:Name="TaskImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="/Task.png"/>
+                    <Image x:Name="TaskImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="Images/Task.png"/>
                     <TextBlock Text="Task" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 </Grid>
             </Button>
@@ -62,7 +63,7 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Image x:Name="SalaryImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="/Salary.png"/>
+                    <Image x:Name="SalaryImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="Images/Salary.png"/>
                     <TextBlock Text="Salary" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 </Grid>
             </Button>
@@ -74,7 +75,7 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Image x:Name="PermissionImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="/Permission.png"/>
+                    <Image x:Name="PermissionImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="Images/Permission.png"/>
                     <TextBlock Text="Permission" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 </Grid>
             </Button>
@@ -86,7 +87,7 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Image x:Name="DpImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="/Department.png"/>
+                    <Image x:Name="DpImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="Images/Department.png"/>
                     <TextBlock Text="Department" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 </Grid>
             </Button>
@@ -98,7 +99,7 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Image x:Name="PositionImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="/Position.png"/>
+                    <Image x:Name="PositionImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="Images/Position.png"/>
                     <TextBlock Text="Position" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 </Grid>
             </Button>
@@ -122,14 +123,14 @@
                         <ColumnDefinition Width="auto"/>
                         <ColumnDefinition Width="auto"/>
                     </Grid.ColumnDefinitions>
-                    <Image x:Name="ExitImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="/Exit.png"/>
+                    <Image x:Name="ExitImage" HorizontalAlignment="Left" Height="auto" Width="73" Margin="0,0,0,0" Source="Images/Exit.png"/>
                     <TextBlock Text="Exit" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 </Grid>
             </Button>
         </StackPanel>
     </Grid>
 
-    <!--<Window.Resources>
+    <Window.Resources>
         <DataTemplate x:Name="DepartmentTemplate" DataType="{x:Type viewmodels:DepartmentViewModel}">
             <views:DepartmentList>
 
@@ -160,5 +161,5 @@
 
             </views:PermissionList>
         </DataTemplate>
-    </Window.Resources>-->
+    </Window.Resources>
 </Window>

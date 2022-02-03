@@ -58,6 +58,7 @@ C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-w
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\Views\SalaryList.g.cs
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\Views\TaskList.g.cs
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\App.g.cs
+C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\PersolEmployeeTracking.WPF_MarkupCompile.cache
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\PersolEmployeeTracking.WPF_MarkupCompile.lref
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\DepartmentPage.baml
