@@ -5,8 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PersolEmployeeTracking.WPF"
         mc:Ignorable="d"
-        Title="DepartmentPage" Height="450" Width="800">
+        Title="Department" WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize"  FontSize="18" FontWeight="Bold" 
+        Height="200" Width="350" Icon="Images/Logo.png" Background="CornflowerBlue" 
+        Loaded="Window_Loaded">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
         
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Label Content="Department Name" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtDepartmentName" Grid.Column="1" Width="148" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap"/>
+        <Button x:Name="btnSave" Content="Save" Grid.Row="1" Width="100" Margin="50,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center" Click="btnSave_Click"/>
+        <Button x:Name="btnClose" Content="Close" Grid.Column="1" Grid.Row="1" Width="100" Margin="0,0,50,0" VerticalAlignment="Center" HorizontalAlignment="Center" Click="btnClose_Click"/>
     </Grid>
 </Window>
