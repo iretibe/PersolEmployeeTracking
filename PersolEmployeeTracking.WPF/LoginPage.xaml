@@ -22,7 +22,7 @@
         <Label Content="UserNo" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="51,0,0,0"/>
         <TextBox x:Name="txtUserNo" Grid.Column="2" Width="150" HorizontalAlignment="Left" VerticalAlignment="Center" PreviewTextInput="txtUserNo_PreviewTextInput"/>
         <Label Content="Password" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Row="1" Margin="43,0,0,0"/>
-        <TextBox x:Name="txtPassword" Grid.Row="1" Grid.Column="2" Width="150" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <PasswordBox x:Name="txtPassword" Grid.Row="1" Grid.Column="2" Width="150" HorizontalAlignment="Left" VerticalAlignment="Center"/>
         <Button x:Name="btnLogin" Content="Login" Grid.Row="2" Margin="62,0,0,0" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnLogin_Click" Grid.ColumnSpan="2"/>
         <Button x:Name="btnExit" Content="Exit" Grid.Row="2" Grid.Column="2" Margin="50,0,0,0" Width="100" HorizontalAlignment="Left" VerticalAlignment="Center" Click="btnExit_Click"/>
     </Grid>
