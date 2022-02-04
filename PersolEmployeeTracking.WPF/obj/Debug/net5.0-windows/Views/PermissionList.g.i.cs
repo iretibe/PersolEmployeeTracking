@@ -53,7 +53,7 @@ namespace PersolEmployeeTracking.WPF.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PersolEmployeeTracking.WPF;component/views/permissionlist.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PersolEmployeeTracking.WPF;V1.0.0.0;component/views/permissionlist.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\PermissionList.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
