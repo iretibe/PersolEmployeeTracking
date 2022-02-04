@@ -41,7 +41,6 @@ C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\bin\Debug\net5.0-w
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\bin\Debug\net5.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\bin\Debug\net5.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\bin\Debug\net5.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
-C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\PersolEmployeeTracking.WPF.csproj.AssemblyReference.cache
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\DepartmentPage.g.cs
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\EmployeePage.g.cs
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\LoginPage.g.cs
@@ -84,3 +83,4 @@ C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-w
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\ref\PersolEmployeeTracking.WPF.dll
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\PersolEmployeeTracking.WPF.pdb
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\PersolEmployeeTracking.WPF.genruntimeconfig.cache
+C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\obj\Debug\net5.0-windows\PersolEmployeeTracking.WPF.csproj.AssemblyReference.cache

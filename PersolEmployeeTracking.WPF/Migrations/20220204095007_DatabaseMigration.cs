@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PersolEmployeeTracking.WPF.Migrations
 {
-    public partial class DatabaseCreation : Migration
+    public partial class DatabaseMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

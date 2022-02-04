@@ -10,8 +10,8 @@ using PersolEmployeeTracking.WPF.Databases;
 namespace PersolEmployeeTracking.WPF.Migrations
 {
     [DbContext(typeof(PersolEmployeeTrackingContext))]
-    [Migration("20220204062836_DatabaseCreation")]
-    partial class DatabaseCreation
+    [Migration("20220204095007_DatabaseMigration")]
+    partial class DatabaseMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

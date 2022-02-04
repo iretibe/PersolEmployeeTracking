@@ -1,0 +1,67 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "PersolEmployeeTimeTrackerContext",
+   "ContextNamespace": "Entities",
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": "Entities",
+   "OutputContextPath": "Entities",
+   "OutputPath": "Entities",
+   "ProjectRootNamespace": "PersolEmployeeTracking.WPF",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[DEPARTMENT]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EMPLOYEE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PERMISSION]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PERMISSONSTATE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[POSITION]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SALARY]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SALARYMONTH]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TASK]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TASKSTATE]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "PSL-DBSERVER-VM\\DEVELOPMENT2017.PersolEmployeeTimeTrackerDB",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": true,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSpatial": false
+}

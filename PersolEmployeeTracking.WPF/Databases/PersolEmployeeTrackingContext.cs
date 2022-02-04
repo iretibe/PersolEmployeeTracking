@@ -27,7 +27,7 @@ namespace PersolEmployeeTracking.WPF.Databases
         {
             if (!optionsBuilder.IsConfigured)
             {
-
+                optionsBuilder.UseSqlServer("Server=PSL-DBSERVER-VM3\\DEVELOPMENT2017;Database=PersolEmployeeTimeTrackerDB;user id=sa;password=Persol@123;Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True");
             }
         }
 

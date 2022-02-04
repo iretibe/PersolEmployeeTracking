@@ -181,7 +181,7 @@ namespace PersolEmployeeTracking.WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PersolEmployeeTracking.WPF;V1.0.0.0;component/employeepage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PersolEmployeeTracking.WPF;component/employeepage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\EmployeePage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

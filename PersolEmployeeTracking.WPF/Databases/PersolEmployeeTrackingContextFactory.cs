@@ -9,7 +9,7 @@ namespace PersolEmployeeTracking.WPF.Databases
         {
             var options = new DbContextOptionsBuilder<PersolEmployeeTrackingContext>();
 
-            options.UseSqlServer("Server=codelearnersoft.net;Database=PersolEmployeeTimeTrackerDB;user id=sa;password=YEso!@12;Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True");
+            options.UseSqlServer("Server=PSL-DBSERVER-VM3\\DEVELOPMENT2017;Database=PersolEmployeeTimeTrackerDB;user id=sa;password=Persol@123;Trusted_Connection=False;MultipleActiveResultSets=true;TrustServerCertificate=True");
 
             return new PersolEmployeeTrackingContext(options.Options);
         }

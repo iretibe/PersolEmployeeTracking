@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\PROJECTS\PersolEmployeeTracking\PersolEmployeeTracking.WPF\App.xaml
 14-397845855
 
-45356812120
+451296211986
 218-552083709
 DepartmentPage.xaml;EmployeePage.xaml;LoginPage.xaml;MainWindow.xaml;PermissionPage.xaml;PositionPage.xaml;SalaryPage.xaml;TaskPage.xaml;Views\DepartmentList.xaml;Views\EmployeeListView.xaml;Views\PermissionList.xaml;Views\PositionList.xaml;Views\SalaryList.xaml;Views\TaskList.xaml;
 
-True
+False
 
