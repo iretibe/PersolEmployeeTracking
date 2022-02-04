@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Department" WindowStartupLocation="CenterScreen" 
         ResizeMode="NoResize"  FontSize="18" FontWeight="Bold" 
-        Height="200" Width="350" Icon="Images/Logo.png" Background="CornflowerBlue" 
+        Height="200" Width="350" Background="CornflowerBlue" 
         Loaded="Window_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>
