@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PersolEmployeeTracking.WPF"
         mc:Ignorable="d"
         Title="PositionPage" Height="200" Width="350" Background="CornflowerBlue" 
-        Icon="Images/Logo.png" FontSize="18" FontWeight="Bold" 
+        FontSize="18" FontWeight="Bold" 
         WindowStartupLocation="CenterScreen" Loaded="Window_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>

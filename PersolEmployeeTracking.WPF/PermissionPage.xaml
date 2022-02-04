@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PersolEmployeeTracking.WPF"
         mc:Ignorable="d"
         Title="PermissionPage" Background="CornflowerBlue" ResizeMode="NoResize" 
-        FontWeight="Bold" Icon="Images/Logo.png" WindowStartupLocation="CenterScreen" 
+        FontWeight="Bold" WindowStartupLocation="CenterScreen" 
         FontSize="18" Height="450" Width="450" Loaded="Window_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>
